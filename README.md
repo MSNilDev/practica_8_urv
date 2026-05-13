@@ -112,4 +112,6 @@ python -m streamlit run app.py
 ```
 ---
 # TODO KEY Necesaria
-
+Será necesario el uso de una GROQ_API_KEY. 
+Para ello, genera una carpeta .streamlit que contenga un archivo secrets.toml
+En este archivo se define la GROQ_API_KEY="XXXXXX"
