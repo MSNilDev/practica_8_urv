@@ -133,7 +133,7 @@ REGLAS DE EVALUACIÓN:
 - Si el usuario no especifica criterios, utiliza criterios relevantes para la categoría del producto.
 - Mantén un enfoque objetivo, neutral y equilibrado.
 - Si no tienes información suficiente para evaluar un criterio, asigna una puntuación prudente (ej: 5) y comenta la falta de datos.
-- Si un producto no es válido o no tiene relación con los criterios, indícalo claramente en la sección de contras y asigna una puntuación baja (ej: 1)
+- Si un producto no es válido o no tiene relación con los criterios, indícalo claramente en la sección de contras y asigna un 1 en la puntuación global.
 - Destaca ventajas y desventajas reales y relevantes.
 - Los comentarios de cada criterio deben ser breves, específicos y útiles.
 - Evita afirmaciones absolutas o exageradas.
@@ -361,8 +361,8 @@ if st.button("Comparar productos con IA"):
 
                 if tabla_data:
                     import pandas as pd
-                    df = pd.DataFrame(tabla_data).T.round(2)
-                    st.dataframe(df.style.highlight_max(axis=0, color="#0c2a33"), use_container_width=True)
+                    df = pd.DataFrame(tabla_data).T
+                    st.dataframe(df.style.format("{:.2f}").highlight_max(axis=0, color="#0c2a33"),use_container_width=True)
 
             except json.JSONDecodeError:
                 st.error("Error al parsear la respuesta del modelo. Inténtalo de nuevo.")
