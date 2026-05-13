@@ -76,10 +76,38 @@ El proyecto implementa varias técnicas modernas de prompting:
 ---
 
 # Instalación
-
 ## 1. Clonar el repositorio
 
 ```bash
 git clone https://github.com/MSNilDev/practica_8_urv.git
 
 cd practica_8_urv
+```
+
+## 2. En la terminal
+```bash
+python -m venv .venv
+```
+
+## 3. Activa el environment
+```bash
+# Windows command prompt
+.venv\Scripts\activate.bat
+
+# Windows PowerShell
+.venv\Scripts\Activate.ps1
+
+# macOS and Linux
+source .venv/bin/activate
+```
+
+## 4. Instalar Streamlit en el environment
+```bash
+pip install streamlit
+```
+
+## 5. Ejecuta la app
+```bash
+python -m streamlit run app.py
+```
+
