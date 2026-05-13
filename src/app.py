@@ -174,7 +174,7 @@ def llamar_llm(productos, criterios, contexto):
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": prompt_usuario}
         ],
-        temperature=0.3,   # con una temperatura baja, las respuestas son mejores, es decir mas consistentes y estructuradas
+        temperature=0.1,   # con una temperatura baja, las respuestas son mejores, es decir mas consistentes y estructuradas
         max_tokens=2000,
     )
 
@@ -281,7 +281,7 @@ with st.sidebar:
     <p style="color:#a5f3fc; font-weight:600; margin:0 0 8px 0;">Técnicas utilizadas:</p>
     <p style="color:#67e8f9; margin:4px 0;">● <b>Role prompting</b>: el modelo actúa como experto analista</p>
     <p style="color:#67e8f9; margin:4px 0;">● <b>Output estructurado</b>: se fuerza respuesta en JSON</p>
-    <p style="color:#67e8f9; margin:4px 0;">● <b>Temperature baja (0.3)</b>: mayor consistencia</p>
+    <p style="color:#67e8f9; margin:4px 0;">● <b>Temperature baja (0.1)</b>: mayor consistencia</p>
     <p style="color:#67e8f9; margin:4px 0;">● <b>Prompt dinámico</b>: se adapta a criterios del usuario</p>
 </div>
 """, unsafe_allow_html=True)
