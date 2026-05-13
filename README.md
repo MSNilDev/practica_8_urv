@@ -1,1 +1,85 @@
 # practica_8_urv
+# Comparador de Productos IA
+
+Aplicación web desarrollada con Streamlit y Groq que utiliza modelos LLM para generar comparativas inteligentes entre productos de forma visual, estructurada y fácil de interpretar.
+
+El sistema analiza diferentes productos según criterios personalizados y genera:
+
+- Evaluaciones objetivas
+- Pros y contras
+- Puntuaciones detalladas
+- Resumen comparativo
+- Recomendación final del mejor producto
+
+---
+
+# Vista previa
+
+Compara productos como:
+
+- iPhone vs Samsung
+- Portátiles gaming
+- Auriculares inalámbricos
+- Coches eléctricos
+- Cámaras fotográficas
+- Cualquier categoría de productos
+
+La IA genera automáticamente una comparativa estructurada en JSON y la renderiza con una interfaz moderna en Streamlit.
+
+---
+
+# Tecnologías utilizadas
+
+- Python
+- Streamlit
+- Groq API
+- Modelo LLaMA 3.3 70B
+- Pandas
+- JSON
+
+---
+
+# Características principales
+
+✅ Comparación dinámica entre 2 y 4 productos  
+✅ Criterios personalizados de evaluación  
+✅ Prompt engineering avanzado  
+✅ Respuesta estructurada en JSON  
+✅ Interfaz moderna y responsive  
+✅ Visualización de puntuaciones con barras  
+✅ Pros y contras por producto  
+✅ Tabla resumen comparativa  
+✅ Manejo defensivo de errores JSON  
+✅ IA optimizada para respuestas consistentes
+
+---
+
+# Técnicas de Prompt Engineering aplicadas
+
+El proyecto implementa varias técnicas modernas de prompting:
+
+- **Role Prompting**  
+  El modelo actúa como un experto analista de productos.
+
+- **Structured Output**  
+  Se fuerza una salida JSON estricta y parseable.
+
+- **Low Temperature (0.3)**  
+  Reduce respuestas inconsistentes y mejora estabilidad.
+
+- **Dynamic Prompting**  
+  Los criterios de evaluación cambian dinámicamente según el usuario.
+
+- **Defensive Parsing**  
+  Limpieza automática de respuestas incorrectamente formateadas.
+
+---
+
+# Instalación
+
+## 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/tuusuario/comparador-productos-ia.git
+
+cd comparador-productos-ia
