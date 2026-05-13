@@ -41,16 +41,16 @@ La IA genera automáticamente una comparativa estructurada en JSON y la renderiz
 
 # Características principales
 
-✅ Comparación dinámica entre 2 y 4 productos  
-✅ Criterios personalizados de evaluación  
-✅ Prompt engineering avanzado  
-✅ Respuesta estructurada en JSON  
-✅ Interfaz moderna y responsive  
-✅ Visualización de puntuaciones con barras  
-✅ Pros y contras por producto  
-✅ Tabla resumen comparativa  
-✅ Manejo defensivo de errores JSON  
-✅ IA optimizada para respuestas consistentes
+- Comparación dinámica entre 2 y 4 productos  
+-  Criterios personalizados de evaluación  
+-  Prompt engineering avanzado  
+-  Respuesta estructurada en JSON  
+-  Interfaz moderna y responsive  
+-  Visualización de puntuaciones con barras  
+-  Pros y contras por producto  
+-  Tabla resumen comparativa  
+-  Manejo defensivo de errores JSON  
+-  IA optimizada para respuestas consistentes
 
 ---
 
@@ -80,6 +80,6 @@ El proyecto implementa varias técnicas modernas de prompting:
 ## 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tuusuario/comparador-productos-ia.git
+git clone https://github.com/MSNilDev/practica_8_urv.git
 
-cd comparador-productos-ia
+cd practica_8_urv
