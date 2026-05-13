@@ -131,9 +131,9 @@ REGLAS DE EVALUACIÓN:
 - La "puntuacion_global" debe ser coherente con los criterios evaluados.
 - Adapta dinámicamente los criterios según los indicados por el usuario.
 - Si el usuario no especifica criterios, utiliza criterios relevantes para la categoría del producto.
-- Mantén un enfoque objetivo, neutral y equilibrado.
+- Mantén un enfoque objetivo, neutral y equilibrado, pero penaliza los productos que no cumplan con los criterios.
 - Si no tienes información suficiente para evaluar un criterio, asigna una puntuación prudente (ej: 5) y comenta la falta de datos.
-- Si un producto no es válido o no tiene relación con los criterios, indícalo claramente en la sección de contras y asigna un 1 en la puntuación global.
+- Si un producto no es tecnológico o no se ajusta a los criterios establecidos, indícalo claramente y asigna un 1 en la puntuación global.
 - Destaca ventajas y desventajas reales y relevantes.
 - Los comentarios de cada criterio deben ser breves, específicos y útiles.
 - Evita afirmaciones absolutas o exageradas.
